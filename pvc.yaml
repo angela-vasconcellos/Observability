@@ -36,5 +36,5 @@ metadata:
 provisioner: kubernetes.io/gce-pd
 parameters:
   type: pd-standard
-  zone: us-central1-a
+  zone: var.region
   fsType: ext4
